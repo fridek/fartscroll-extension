@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "FartScroll",
+  "description": "This extension farts when you scroll. Alpha version. Based on https://github.com/theonion/fartscroll.js",
+  "version": "0.1",
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["fartscroll.js"]
+    }
+  ]
+}
